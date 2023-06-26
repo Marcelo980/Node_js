@@ -1,0 +1,426 @@
+/*Cores utilizadas
+
+#87CEFA; Azul claro
+
+*/
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #87CEFA;
+    ;
+    /* Cor de fundo do menu */
+    z-index: 999;
+    /* Define a ordem de empilhamento do menu, caso haja outros elementos sobrepostos */
+}
+
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list li {
+    margin-right: 15px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-list li a:hover {
+    background-color: #5f0d7b;
+}
+
+/* Adicione animação de hover */
+.menu-list li a:hover {
+    transform: scale(1.1);
+}
+
+/* Adicione sombra nos botões */
+.menu-list li a {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilize os botões ativos */
+.menu-list li a.active {
+    background-color: #5f0d7b;
+    font-weight: bold;
+}
+
+
+/*formatação body*/
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: white;
+    margin-top: 140px;
+
+}
+
+/*formatacao página index*/
+
+
+.titulo1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+
+.texto1 {
+    font-size: 20px;
+    color: #D3D3D3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10pt;
+}
+
+.titulo2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4682B4;
+}
+
+.form_cadastro {
+    margin-top: 50px;
+}
+
+
+#contato img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+
+    .bem-vindo {
+        height: 100%;
+    }
+
+    .titulo2 {
+        margin-top: 10%;
+    }
+
+    .form_cadastro {
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /*Formatação tela login*/
+    .form_login {
+        width: 30%;
+        left: 35%;
+        position: relative;
+    }
+
+}
+
+/*Formatação tela do conteúdo do site*/
+#conteudo {
+    text-align: justify;
+    margin-top: 30px;
+    color: #8d19da;
+}
+
+#conteudo h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+
+#conteudo p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #000000;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+    #conteudo {
+        margin-top: 50px;
+    }
+
+    #conteudo h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: #000000;
+        animation: fadeInUp 1s ease-in-out;
+    }
+
+    #conteudo p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #000000;
+        animation: fadeInUp 1s ease-in-out;
+    }
+}
+
+/*Formatação tela das imagens*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .row .col-md-12 {
+    flex: 1;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+.container .row .col-md-12 p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.container .row .col-md-12 img {
+    flex: 1;
+    max-width: 250px;
+    margin-top: 20px;
+    height: auto;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* logo do site */
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    max-width: 100px;
+    height: auto;
+}
+/*Avaliacoes de clientes*/
+.avaliacoes {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding: 20px;
+  }
+  
+  .item {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+  }
+ 
+  
+  .avaliacao {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .estrelas {
+    font-size: 24px;
+  }
+  
+  .comentario {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .autor {
+    margin-top: 10px;
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .carrossel {
+      justify-content: center;
+    }
+  
+    .item {
+      
+      width: 250px;
+    }
+  }
+  
+  @keyframes scroll-avaliacoes {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animated-avaliacao {
+    animation: scroll-avaliacoes 10s linear infinite;
+  }
+  
+  
+/*Formulario de Contato*/
+
+#contato {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#contato h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#contato form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contato .form-group {
+    margin-bottom: 20px;
+}
+
+#contato label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#contato textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+#contato button[type="submit"] {
+    background-color: #8d19da;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contato button[type="submit"]:hover {
+    background-color: #6b137e;
+}
+
+#titulo-site {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+/*Formataçao tela de promocoes*/
+.promo .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .promo .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .promo .col-md-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+  
