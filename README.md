@@ -33,6 +33,7 @@ CREATE TABLE users(
 <img src="public/images/img_index.png">
 
 <h2> Contato </h2>
-
-[![Linkedin Badge](https://img.shields.io/badge/-Otávio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/otaviosilva22/)](https://www.linkedin.com/in/otaviosilva22/)
-[![Gmail Badge](https://img.shields.io/badge/-otavio.ssilva22@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:otavio.ssilva22@gmail.com)](mailto:otavio.ssilva22@gmail.com)
+Instagram
+https://www.instagram.com/marcelo_win369/
+Linkedin
+https://www.linkedin.com/in/marcelo-henrique-a-7a42aa139/
