@@ -1,5 +1,5 @@
-# Sistema de login com Node.js e MySQL
-Este repositório faz referência à uma simples aplicação de login desenvolvida com Node.js em conjunto com o banco de dados MySQL. Para o front-end utilizou-se o framework Bootstrap.
+# Sistema de login com Node.js e MySQL e Site HTML5
+Este repositório faz referência à uma simples aplicação de login desenvolvida com Node.js em conjunto com o banco de dados MySQL. Para o front-end utilizou-se o framework Bootstrap. e uma tela inicial simples de html com css realizando um breve exemplo de site de uma loja de acai, como nosso exemplo foi pegado como modelo a bolt açaí. 
 
 <h2> Tecnologias Utilizadas </h2>
 
@@ -21,9 +21,7 @@ use dblogin;
 
 CREATE TABLE users(
 	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR (100) NOT NULL,
     email VARCHAR (100) NOT NULL,
-    idade INTEGER NOT NULL,
     pass INTEGER NOT NULL
 
 );
@@ -31,7 +29,6 @@ CREATE TABLE users(
 
 <h2> Páginas </h2>
 <img src="public/images/img_index.png">
-<img src="public/images/img_home.png">
 
 <h2> Contato </h2>
 Instagram
