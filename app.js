@@ -90,9 +90,6 @@ app.get("/views/home", function (req, res){
     
 });
 
-//--------------------------------Desenvolvimento-----------------------------//
-
-
 //rota para sabores
 app.get("/views/sabores", function (req, res){
     
@@ -214,7 +211,6 @@ app.get("/views/avaliacoes", function (req, res){
     }
     
 });
-//--------------------------------Desenvolvimento-----------------------------//
 
 //rota para login
 app.get("/views/login", function(req, res){
