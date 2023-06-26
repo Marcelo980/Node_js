@@ -31,6 +31,7 @@ CREATE TABLE users(
 
 <h2> Páginas </h2>
 <img src="public/images/img_index.png">
+<img src="public/images/img_home.png">
 
 <h2> Contato </h2>
 Instagram
