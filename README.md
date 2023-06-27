@@ -27,8 +27,6 @@ CREATE TABLE users(
 );
 ```
 
-<h2> Páginas </h2>
-  <img src="../images/img_index.png">
 
 
 <h2> Contato </h2>
