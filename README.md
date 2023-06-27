@@ -28,7 +28,8 @@ CREATE TABLE users(
 ```
 
 <h2> Páginas </h2>
-<img src="public/images/img_index.png">
+![image](https://github.com/Marcelo980/Node_js/assets/132177596/3c81ef4a-1f68-4d8e-982b-141987eedf30)
+
 
 <h2> Contato </h2>
 Instagram
